@@ -1,0 +1,320 @@
+:root {
+
+    /* Primary colors */
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+
+    /* Neutral colors */
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('/images/bg-header-desktop.png') no-repeat center top;
+    background-size: cover;
+    height: 100vh;
+
+    font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
+}
+
+
+/****** Header ******/
+
+.header-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    margin-top: 6.5rem;
+}
+
+.header-info {
+    margin-top: 3.5rem;
+}
+
+.header-info h1 {
+    font-size: 2.5em;
+    color: #33414d;
+}
+
+.header-info p {
+    margin: 1rem 0;
+    width: 40rem;
+
+    font-size: 1.2em;
+    color: var(--Grayish-Blue);
+}
+
+.header-btn {
+    margin-top: 2rem;
+}
+
+.header-btn button {
+    width: 11rem;
+    height: 3rem;
+
+    margin: 0 0.5rem;
+
+    outline: none;
+    border: none;
+    border-radius: 25px;
+
+    color: #fff;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.btn-ios {
+    background-color: var(--Strong-Cyan);
+    box-shadow: 0 2px 7px #003535;
+}
+
+.btn-mac {
+    background-color: var(--Light-Blue);
+    box-shadow: 0 2px 7px #001935;
+}
+
+
+/******  ******/
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 10rem 0;
+}
+
+.introduction-main {
+    text-align: center;
+}
+
+.introduction-main h2 {
+    color: #33414d;
+    font-size: 2.5em;
+}
+
+.introduction-main p {
+    width: 44rem;
+
+    margin-top: 1rem;
+
+    font-size: 1.2em;
+    color: var(--Grayish-Blue);
+}
+
+.imageComputer-area img {
+    width: 745px;
+}
+
+.firstContent-area {
+    margin-top: 5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories {
+    margin-left: 7.5rem;
+    margin-right: 1rem;
+
+    position: relative;
+    bottom: 10px;
+}
+
+.box-info {
+    margin: 4.5rem 0;
+    width: 30rem;
+}
+
+.box-info h2 {
+    margin-bottom: 0.5rem;
+
+    color: #33414d;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+.box-info p {
+    width: 25rem;
+
+    font-size: 1.2em;
+    color: var(--Grayish-Blue);
+}
+
+.secondContent-area {
+    margin: 7rem 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+.info-text {
+    margin-bottom: 7rem;
+}
+
+.info-text h2 {
+    color: #33414d;
+    font-size: 2.5em;
+}
+
+.info-text p {
+    margin-top: 1rem;
+
+    width: 45rem;
+
+    color: var(--Grayish-Blue);
+    font-size: 1.2em;
+}
+
+.thirdContent-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin-bottom: 5rem;
+}
+
+.thirdContent-area h2 {
+    color: #33414d;
+    font-size: 2.5em;
+}
+
+.thirdContent-area p {
+    margin-top: 1rem;
+
+    color: var(--Grayish-Blue);
+    font-size: 1.2em;
+}
+
+.tools-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.tools-area article {
+    margin-left: 1.5rem;
+}
+
+.tools-area article svg {
+    margin-bottom: 1.2rem;
+}
+
+.tools-area article h2 {
+    margin: 1rem 0;
+
+    color: #33414d;
+    font-size: 1.7em;
+}
+
+.tools-area article p {
+    color: var(--Grayish-Blue);
+    font-size: 1.2em;
+
+    width: 26rem;
+}
+
+.logotypes-area {
+    margin: 10rem 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logotypes-area img {
+    margin-left: 5rem;
+}
+
+.last-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+    margin-bottom: 10rem;
+}
+
+.last-section h1 {
+    color: #33414d;
+    font-size: 2.5em;
+}
+
+.last-section p {
+    margin: 1rem 0;
+
+    color: var(--Grayish-Blue);
+    font-size: 1.2em;
+
+    width: 48rem;
+}
+
+footer {
+    background-color: #ebebeb;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 25px;
+}
+
+.footer-links {
+    display: flex;
+    margin-right: 3rem;
+
+    position: relative;
+    bottom: 1rem;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: var(--Dark-Grayish-Blue);
+    font-weight: bold;
+
+    margin-top: 2rem;
+}
+
+.links-box a {
+    display: block;
+    margin-right: 5rem;
+}
+
+.install-link {
+    height: 10px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media svg{
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+
+
+/****** End of the project ******/
+
